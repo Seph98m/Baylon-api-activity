@@ -18,4 +18,13 @@ Paste a screenshot of a successful GET request here
 <img width="1366" height="768" alt="Screenshot from 2026-01-29 12-08-19" src="https://github.com/user-attachments/assets/e6b42112-b6d0-4f29-9af5-6824a617b2dc" />
 
 ## activity 2
+<img width="1366" height="768" alt="dishes" src="https://github.com/user-attachments/assets/63deb052-c694-40f5-a5e1-71f1bad1660e" />
+
+* Why did i choose to Embed the Review?
+  - i choose to embed the Review because the review is own by specific dish. the load of data is fast if they are together in one document.
+* Why did i choose to reference the chef?
+  -- i choose to reference the chef because one chef can have more dishes. in this way the data of chef dont repeat, and if the nameof needed to change only one ducumenmt is need to update.
+  
+
+
 
