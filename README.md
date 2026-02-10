@@ -17,3 +17,5 @@ Markdown
 Paste a screenshot of a successful GET request here
 <img width="1366" height="768" alt="Screenshot from 2026-01-29 12-08-19" src="https://github.com/user-attachments/assets/e6b42112-b6d0-4f29-9af5-6824a617b2dc" />
 
+## activity 2
+
