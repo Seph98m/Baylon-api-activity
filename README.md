@@ -27,4 +27,23 @@ Paste a screenshot of a successful GET request here
   
 
 
+# Activity 4
 
+1. [/] Code runs via npm run dev with no errors.
+2. [/] Registration and Login endpoints are functional.
+3. [/] Middleware correctly blocks unauthorized users.
+4. [/] GitHub Repo link submitted.
+5. [/] README.md updated with the following answers:
+
+
+1. Authentication vs Authorization:
+o What is the difference between Authentication and Authorization in our code?
+o Answer: In authentication is who a user is and while authorization is what the user is allowed to do
+2. Security (bcrypt):
+o Why did we use bcryptjs instead of saving passwords as plain text in
+MongoDB?
+o Answer:it is risk , if the database is comprised every password would be expose.
+3. JWT Structure:
+o What does the protect middleware do when it receives a JWT from the
+client?
+o Answer:it performs extraction , verification and identification.

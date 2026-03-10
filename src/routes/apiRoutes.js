@@ -35,10 +35,10 @@ router.post('/dishes', createDish);
 router.get('/dishes/:id', getDishByID);
 
 // 4. If user sends PUT /:id (Change meal)
-router.put('dishes/:id', updateDish);
+router.put('/dishes/:id', updateDish);
 
 // 5. If user sends DELETE /:id (Cancel meal)
-router.delete('dishes/:id', deleteDish);
+router.delete('/dishes/:id', deleteDish);
 
 // ANYONE can get dishes
  router.get('/auth', getAllDishes);
