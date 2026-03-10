@@ -1,5 +1,11 @@
+
 const express = require('express');
-const router = express.Router();
+ const router = express.Router();
+ // Import controllers here...
+const { protect, authorize } = require('../middleware/authMiddleware');
+
+
+
 
 // Import the controller
 const {
@@ -34,11 +40,15 @@ router.put('dishes/:id', updateDish);
 // 5. If user sends DELETE /:id (Cancel meal)
 router.delete('dishes/id', deleteDish);
 
+// ANYONE can get dishes
+ router.get('/auth', getDish);
+
 // Routes in Chef
 router.get('/chefs', getAllChefs);
 router.post('/chefs', createChef);
 router.get('/chefs/:id', getChefByID);
 router.put('/chefs/:id', updateChef);
 router.delete('/chefs/:id', deleteChef);
+router.post('/auth', protect, authorize('admin', 'manager'), createDish);
 
 module.exports = router;
